@@ -61,7 +61,6 @@ table {
 }
 
 .headnavlist{
-    max-width: 100%;
     display: inline-block;
     padding-right: 5%;
     float: right;
