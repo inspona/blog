@@ -1,0 +1,242 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: #d6d6d6;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of css reset */
+.headcont1{
+     background: linear-gradient(#333333 , #959595); 
+    display: flex;
+    padding: .49% 0%;
+    width: 100%;
+    height: 100%;
+}
+.headlogo{
+    display: flex;
+    float: left;
+    max-width: 93px;
+    height: 26px;
+    padding-left: 1%;
+    font-size: 120%;
+}
+
+.headnavlist{
+    width: 250%;
+    display: inline-block;
+    padding-right: 5%;
+    float: right;
+    font-size: 100%;
+    
+}
+
+.headnavlink{
+
+    display: inline-block;
+    float: right;
+    padding: .49% 1.5%;
+    text-decoration: none;
+    color: #aad400;
+    
+    
+}
+.headnavlink:link{
+    color: #aad400;
+    transition: color .25s ease-out;
+}
+.headnavlink:visited{
+    color:#aad400;
+     
+}
+.headnavlink:hover{
+    color: white;
+    transition: color .25s ease-in;
+   
+}
+.headnavlink:active{
+    color: white;
+}
+
+/*beginbodyarea*/
+.topareadiv{
+    max-width: 100%;
+}
+
+/*beginlarge*/
+.extralargediv{
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    width: 55%;
+    margin: 2.5% 2% 2% 1%;
+    overflow: hidden;
+}
+.xlgimg{
+    width: 100%;
+    display: inline-block;
+}
+
+.xlgtitlelink{
+    text-decoration: none;
+}
+.xlgtitlelink:link{
+    color:#5b4f46;
+}
+.xlgtitlelink:visited{
+    color:#5b4f46;
+}
+.xlgtitlelink:hover{
+    text-decoration: underline;
+    text-decoration-color: #aad400;
+    transition: all .25s ease-in;
+}
+.xlgtitlelink:active{
+    color: #aad400;
+}
+.xlgtitle{
+    text-align: center;
+    font-size: 145%;
+    font-family: "Corbel";
+    font-weight: 900;
+    color:#5b4f46;
+    margin-bottom: 1%;
+}
+
+.xlgdate{
+    text-align: center;
+    color: #5b4f46;
+    font-weight: 600;
+    font-family: "Corbel";
+    margin-bottom: .5%;
+}
+/*endlarge*/
+
+/*beginsmall*/
+.smallareadiv{
+    display:inline-block;
+    width: 39%;
+    margin-top: 2%;
+}
+.smallerareadiv{
+    background-color: white;
+    margin: 1% 3% 3.6% 1%;
+    width: 100%;
+}
+.smallcontarea{
+    display: inline-block;
+    vertical-align: top;
+}
+.smallimg{
+    width: 20%;
+    display: inline-block;
+}
+.smalltitle{
+    font-family: "Corbel";
+    font-size: 125%;
+    font-weight: 900;
+    color: #5b4f46;
+}
+.smalldate{
+    font-family: "Corbel";
+    color: #5b4f46;
+}
+.smalltitlelink{
+    text-decoration: none;
+}
+.smalltitlelink:link{
+    color:#5b4f46;
+}
+.smalltitlelink:visited{
+    color:#5b4f46;
+}
+.smalltitlelink:hover{
+    text-decoration: underline;
+    text-decoration-color: #aad400;
+    transition: all .25s ease-in;
+}
+.smalltitlelink:active{
+    color: #aad400;
+}
+/*endsmall*/
+/*startmedium*/
+.mainmid{
+    margin: 0% 1%;
+}
+.midarea{
+    display: inline-block;
+    width: 48.4%;
+    background-color: white;
+    margin: 1% 1.5% 1% 0%;
+    float: left;
+    overflow: hidden;
+    
+}
+.imgmed{
+    width: 50%;
+    display: inline-block;
+    margin: 0% 5%;
+}
+.medcont{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5% 0%;
+    width: 30%;
+}
+.medtitle{
+    font-family: "Corbel";
+    font-size: 145%;
+    font-weight: 900;
+    color: #5b4f46;
+    
+}
+.datetitle{
+    color: #5b4f46; 
+    font-family: "Corbel";
+    margin-top: 10%;
+    
+}
+/*endmedium*/
+/*endbodyarea*/
+/*footer*/
+
+/*endfooter*
